@@ -1,0 +1,22 @@
+{
+  "name": "6goma9/edinet-php",
+  "description": "EDINET PHP library",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "6goma9",
+      "email": "6goma9@gmail.com"
+    }
+  ],
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "8.0.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Collection\\": "src/",
+      "CollectionTest\\": "tests/"
+    }
+  }
+}
